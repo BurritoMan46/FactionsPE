@@ -23,7 +23,7 @@
 language: en
 
 # Economy
-economy-support: false
+economy-support: true
 economy-plugin: "EconomyAPI"
 
 # Data provider settings
@@ -38,7 +38,7 @@ data-provider:
 
 # Chat
 # Set this to false if you want to use PureChat or anything else
-chat-formatter: true
+chat-formatter: false
 
 # Should inactive factions be disbanded?
 purge-inactive-factions: true
@@ -156,7 +156,7 @@ gameplay:
   # Minimum member count to start claiming land
   claims-require-min-faction-members: 1
   # Maximum land count
-  claimed-lands-max: 99999999
+  claimed-lands-max: 999999999
   # Should next claim must be connected with previous ?
   claims-must-be-connected: true
   # Can setting above be ignored if over-claiming ?
